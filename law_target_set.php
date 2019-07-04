@@ -49,7 +49,7 @@ $target_array = json_decode($target_json);
     <script>
     $(document).ready(function(){
         $("#add_law").click(function(){
-            $("#law_target_table").append("<tr><td><input type=\"text\" class=\"form-control\" name=\"law_target[]\" id=\"law_target\" value=\"\"></td><td><input type=\"text\" class=\"form-control\" name=\"pcode[]\" id=\"pcode\" value=\"\"></td></tr>");
+            $("#law_target_table").append("<tr><td><input type=\"text\" class=\"form-control\" name=\"law_target[]\" id=\"law_target\" value=\"\"></td><td><input type=\"text\" class=\"form-control\" name=\"law_pcode[]\" id=\"law_pcode\" value=\"\"></td></tr>");
         });
     });
     </script>
